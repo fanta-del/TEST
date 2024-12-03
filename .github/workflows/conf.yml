@@ -15,7 +15,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12' # Mettez la version correspondant à votre application
+          python-version: '3.13' # Mettez la version correspondant à votre application
 
       - name: Install dependencies
         run: |
